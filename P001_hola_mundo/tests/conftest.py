@@ -9,3 +9,11 @@ ACTIVITY_DIR = Path(__file__).resolve().parents[1]
 def run_from_activity_directory(monkeypatch):
     """Ejecuta cada prueba desde la raíz de su PRE o LAB."""
     monkeypatch.chdir(ACTIVITY_DIR)
+def pregunta_01():
+
+    return "Hola mundo cruel!"
+
+
+def pregunta_02():
+
+    return "Hello cruel world!"

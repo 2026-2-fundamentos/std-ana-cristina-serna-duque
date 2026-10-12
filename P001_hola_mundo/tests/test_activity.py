@@ -18,3 +18,12 @@ def test_01(monkeypatch):
 
 def test_02(monkeypatch):
     assert answer("pregunta_02", monkeypatch) == "Hello cruel world!"
+
+def pregunta_01():
+
+    return "Hola mundo cruel!"
+
+
+def pregunta_02():
+
+    return "Hello cruel world!"
